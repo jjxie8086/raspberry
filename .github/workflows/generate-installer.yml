@@ -33,7 +33,7 @@ env:
 jobs:
   build:
     runs-on: macos-latest
-    if: github.repository == 'raspberry'
+    if: github.repository == 'jjxie8086/raspberry'
     steps:
       - uses: actions/checkout@v4
       
